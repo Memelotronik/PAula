@@ -1,3 +1,4 @@
+/*Configuraciones generales de la pagina*/
 *{
 	padding: 0px;
 	margin: 0px;
@@ -6,8 +7,9 @@
 body{
 	width: 100%;
 	height: 100%;
-	background-color: #FFFFFF;/*#000000*/
+	background-color: #000000;
 }
+/*Division del menu*/
 header{
 	margin: auto;
 	width: 100%;
@@ -17,12 +19,12 @@ header{
 ul, ol{
 	list-style: none;
 }
+/*Formatos de los titulos*/
 h1{
 	color: #000000;
-	font-size: 30px;
+	font-size: 40px;
 	font-weight: bold;
 	font-family: "Times New Roman";
-	font-size: 18px;
 }
 h3{
 	color: #000000;
@@ -30,25 +32,21 @@ h3{
 	font-weight: bold;
 	font-family: "Times New Roman"; 
 }
+/*Formato del cuerpo*/
 p{
+	margin-left: auto;
+	margin-right: auto;
 	color: #000000;
-	font-size: 18px;
+	font-size: 25px;
 	font-family: "Times New Roman"; 
 	text-align: justify;
 	font-weight: normal;
 }
-/*@keyframes animation_test{
-	from{
-		background-color: #FFFF00;
-	}
-	to{
-		background-color: #22BA1F;
-	}
-}*/
+/*Formato del encabezado*/
 .titulo{
 	width: 100%;
 	height: 300px;
-	background-color: #E6E6FA;
+	background-color: #AEA7EA;
 	color: white;
 	text-align: center;
 	display: flex;
@@ -63,58 +61,67 @@ p{
 	display: flex;
 	justify-content: center;
 }
+/*Formato del menu*/
 .nav li a{
 	text-decoration: none;
 	padding: 20px 103px;
 	display: block;
-	background-color: #4B0082;
+	background-color: #483D8B;
 	height: 100px;
 	color: #FFFFFF;
 	font-family: "Times New Roman";
 	font-size: 25px;
 }
 .nav li a:hover{
-	background-color: #483D8B;
+	background-color: #AEA7EA;
 }
 .nav>li{
 	float: left;
 }
+/*Formato del marco 1*/
 div#contenido1 {
   border: solid 1px #ccc;
+  background-color: #9FE0E0;
   position: absolute;
   overflow: hidden;
   left: 0px;
   top: 440px;
   width: 60%;
-  height: 110%;
+  height: 147%;
   padding: 0 20px;
 }
+/*Formato del marco 2*/
 div#contenido2 {
   border: solid 1px #ccc;
+  background-color: #9FE0E0;
   position: absolute;
   overflow: hidden;
   left: 895px;
   top: 440px;
   width: 34%;
-  height: 110%;
+  height: 147%;
   padding: 0 20px;
 }
+/*Formato de los marcos*/
 div#marco1, div#marco2 {
   height: 100%;
   width: 100%;
 }
+/*Formato del footer*/
 div#footer {
   border: solid 1px #ccc;
   position: absolute;
   overflow: hidden;
   left: 0px;
-  top: 1272px;
+  top: 1572px;
   padding: 0 20px;
-  background-color: #483D8B;
+  background-color: #4B0082;
   align-items: center;
-  width: 97%;
-  height: 250px;
-  font-size: 18px;
   font-family: "Courier New";
   font-weight: lighter;
+  background-color: #4B0082;
+  color: #FFFFFF;
+  width: 100%;
+  height: 100px;
+  font-size: 20px;
 }
